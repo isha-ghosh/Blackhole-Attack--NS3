@@ -1,4 +1,4 @@
-# ns3.30.1_BlackHoleAttack
+
 
 BlackHoleAttack` performed on AODV routing protocol
 
@@ -12,6 +12,4 @@ Steps to follow :
 1. Rename the choice of attack file to  aodv-routing-protocol.cc 
 2. Simply copy the file and replace with the existing .cc and .h files in adov/model/
 2. Copy the blackhole.cc and myapp.h to scratch folder.
-3. Use " ./waf --run blackhole " command to execute the script.
-
-` Works on ns3.30.1 (not tested on other versions)
+3. Use " ./ns3 --run blackhole " command to execute the script.
